@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+  overflow: hidden;
+  position: relative;
+  top: auto;
+  display: inline-block;
+  display: block;
+  padding: 14px 16px;
+  font-size: 17px;
+  background: #000000;
+  background: -moz-linear-gradient(left, #000000 0%, #6d6d6d 100%, #8e8e8e 100%, #8e8e8e 100%, #6d6d6d 100%, #606060 100%, #a3a3a3 102%, #6d6d6d 102%, #6d6d6d 102%);
+  background: -webkit-linear-gradient(left, #000000 0%, #6d6d6d 100%, #8e8e8e 100%, #8e8e8e 100%, #6d6d6d 100%, #606060 100%, #a3a3a3 102%, #6d6d6d 102%, #6d6d6d 102%);
+  background: linear-gradient(to right, #000000 0%, #6d6d6d 100%, #8e8e8e 100%, #8e8e8e 100%, #6d6d6d 100%, #606060 100%, #a3a3a3 102%, #6d6d6d 102%, #6d6d6d 102%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#6d6d6d', GradientType=1);
+  font-family: 'Nabla', cursive;
+  font-size: xx-large;
+}
+
+.logo {
+  margin: 15px 0;
+  margin-top: 15px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  vertical-align: middle;
+  height: 30px;
+  width: 190px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+  padding-left: 60px;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.Redes_Sociales {
+  align-self: flex-end;
+
+}
