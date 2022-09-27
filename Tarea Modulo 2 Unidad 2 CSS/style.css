@@ -1,0 +1,57 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.contenedor {
+    border: 3px solid black;
+    height: 600px;
+    width: 600px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.contenedor_dos {
+    border: 3px solid black;
+    height: 600px;
+    width: 600px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: center;
+}
+
+.contenedor_tres {
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#primero {
+    background-color: red;
+}
+
+#segundo {
+    background-color: blue;
+}
+
+#tercero {
+    background-color: green;
+}
